@@ -6,7 +6,7 @@ setup(
     # Version number (initial):
     version="0.1.1",
     # Application author details:
-    url="https://github.com/AlSayedGamal/python_zklib",
+    url="https://github.com/gangadhar-kadam/python_zklib",
     author="AlSayed Gamal",
     author_email="mail.gamal@gmail.com",
     packages=["zklib"],
