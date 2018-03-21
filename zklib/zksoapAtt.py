@@ -32,7 +32,7 @@ def zksoapAtt(self):
 			ver = elem.findtext("Verified")
 			state = elem.findtext("Status")
 			workCode = elem.findtext("WorkCode")
-			data.append((int(uid),datetime.datetime.strptime(str(DateTime),'%Y-%m-%d %H:%M:%S'),int(ver),int(state),int(workCode)))
+			data.append((str(uid),datetime.datetime.strptime(str(DateTime),'%Y-%m-%d %H:%M:%S'),int(ver),int(state),int(workCode)))
 
 		return data
 
